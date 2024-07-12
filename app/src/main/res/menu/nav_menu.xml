@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_dashboard"
+            android:icon="@drawable/icon_dashboard"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_profilem"
+            android:title="Profile"
+            />
+        <item
+            android:id="@+id/nav_gen"
+            android:icon="@drawable/icon_genqrm"
+            android:title="Generate QR"
+            />
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/icon_scanm"
+            android:title="Scan QR"
+            />
+<!--        <item-->
+<!--            android:id="@+id/nav_imp_gen"-->
+<!--            android:icon="@drawable/icon_downloadm"-->
+<!--            android:title="Import &amp; generate QR"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_imp_scan"-->
+<!--            android:icon="@drawable/icon_downloadm"-->
+<!--            android:title="Import &amp; scan QR"-->
+<!--            />-->
+
+        <item
+            android:id="@+id/nav_editor"
+            android:icon="@drawable/icon_editm"
+            android:title="Editor"
+            />
+
+
+        <item
+            android:id="@+id/nav_drafts"
+            android:icon="@drawable/icon_recents"
+            android:title="Drafts"
+            />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_settings"-->
+<!--            android:icon="@drawable/icon_settings"-->
+<!--            android:title="Settings"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_trash"-->
+<!--            android:icon="@drawable/icon_trash"-->
+<!--            android:title="Trash"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_help"-->
+<!--            android:icon="@drawable/icon_help"-->
+<!--            android:title="Help"-->
+<!--            />-->
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icon_about"
+            android:title="About App"
+            />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Log Out"
+            />
+
+
+
+
+    </group>
+</menu>

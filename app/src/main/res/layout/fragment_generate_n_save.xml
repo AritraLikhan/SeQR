@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".GenerateNSave">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/qr_code_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+           android:layout_marginTop="150dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/appicon"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="#326E34"
+            android:text="Save the key to this signature"
+            android:id="@+id/idSavePdfKeys"
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

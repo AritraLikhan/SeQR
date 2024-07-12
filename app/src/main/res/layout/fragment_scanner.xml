@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scanner">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter data and get key to verify"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/yellow"
+            android:id="@+id/idVerifyData"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="509dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+
+            <EditText
+                android:id="@+id/paragraphEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:hint="Enter your text here"
+                android:textColor="@color/white"
+                android:textColorHint="#594CAF50"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+
+                />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/idGetKeyBtn"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="131dp"
+            android:textColor="#326E34"
+            android:text="Get key of the data" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/idSaveGenBtn"-->
+        <!--            android:layout_width="165dp"-->
+        <!--            android:layout_height="65dp"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginStart="215dp"-->
+        <!--            android:layout_marginTop="45dp"-->
+        <!--            android:layout_marginEnd="32dp"-->
+        <!--            android:layout_marginBottom="131dp"-->
+        <!--            android:textColor="#326E34"-->
+        <!--            android:text="Save and Generate QR" />-->
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

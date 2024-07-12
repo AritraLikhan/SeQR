@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profile1">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="@string/hello_blank_fragment" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <TextView-->
+<!--            android:id="@+id/LogInMsg"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="110dp"-->
+<!--            android:layout_marginTop="75dp"-->
+<!--            android:text="User  Information"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/yellow"-->
+<!--            android:textColorHint="#594CAF50"-->
+<!--            android:textSize="25sp" />-->
+
+        <ImageView
+            android:id="@+id/idDP"
+            android:layout_width="82dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="32dp"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:id="@+id/idTextName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="4dp"
+            android:paddingLeft="10dp"
+            android:text="Name:\n"
+            android:textColor="#3C6C3E"
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idProfileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginEnd="32dp"
+            app:cardBackgroundColor="@color/yellow"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/idTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="4dp"
+                android:paddingLeft="10dp"
+                android:text="Email:\n"
+                android:textColor="#3C6C3E"
+                android:textSize="14dp"
+                android:textStyle="bold"
+
+
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idProfileDOB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="32dp"
+            app:cardBackgroundColor="@color/yellow"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/idTextDOB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:text="Date of birth:\n"
+                android:textColor="#3C6C3E"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:inputType="date"
+
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/idEditDetails"
+                    android:drawableLeft="@drawable/icon_edit_green"
+                    android:drawablePadding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="320dp"
+                    android:text="Edit Profile Details"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow"
+                    android:textColorHint="#594CAF50"
+                    android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:hint="First Name"
+            android:textColorHint="#594CAF50"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="370dp"
+            android:textSize="20sp"
+            android:textColor="#3F90B5"
+            android:inputType="text"
+            android:drawablePadding="12dp"
+            android:background="@drawable/custom_text_field"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/idFirstName"
+            />
+
+        <EditText
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:hint="Last Name"
+            android:textColorHint="#594CAF50"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp"
+            android:textColor="#3F90B5"
+            android:inputType="text"
+            android:drawablePadding="12dp"
+            android:background="@drawable/custom_text_field"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/idLastName"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Date of birth"
+            android:textColorHint="#594CAF50"
+            android:layout_marginTop="425dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:textSize="20sp"
+            android:textColor="#3F90B5"
+            android:inputType="date"
+            android:drawablePadding="12dp"
+            android:background="@drawable/custom_text_field"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/idEditDOB"
+            />
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:hint="Email"-->
+<!--            android:textColorHint="#594CAF50"-->
+<!--            android:layout_marginTop="480dp"-->
+<!--            android:layout_marginLeft="32dp"-->
+<!--            android:layout_marginRight="32dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#3F90B5"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:drawablePadding="12dp"-->
+<!--            android:background="@drawable/custom_text_field"-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:paddingEnd="20dp"-->
+<!--            android:id="@+id/idEditDOB"-->
+<!--            />-->
+
+
+
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#448546"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="20dp"
+            android:text="Update details"
+            android:textSize="15sp"
+            android:id="@+id/idEditBtn"
+            />
+
+<!--        <TextView-->
+<!--            android:id="@+id/idCngPass"-->
+<!--            android:drawableLeft="@drawable/icon_pass_green"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="460dp"-->
+<!--            android:text="Change Password"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/yellow"-->
+<!--            android:textColorHint="#594CAF50"-->
+<!--            android:textSize="25sp" />-->
+
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:hint="Type Old Password"-->
+<!--            android:textColorHint="#594CAF50"-->
+<!--            android:layout_marginTop="510dp"-->
+<!--            android:layout_marginLeft="32dp"-->
+<!--            android:layout_marginRight="32dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#3F90B5"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:drawablePadding="12dp"-->
+<!--            android:background="@drawable/custom_text_field"-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:paddingEnd="20dp"-->
+<!--            android:id="@+id/idOldPass"-->
+<!--            />-->
+
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:hint="Type New Password"-->
+<!--            android:textColorHint="#594CAF50"-->
+<!--            android:layout_marginTop="565dp"-->
+<!--            android:layout_marginLeft="32dp"-->
+<!--            android:layout_marginRight="32dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#3F90B5"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:drawablePadding="12dp"-->
+<!--            android:background="@drawable/custom_text_field"-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:paddingEnd="20dp"-->
+<!--            android:id="@+id/idNewPass"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/button"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#47944A"-->
+<!--            android:layout_marginTop="635dp"-->
+<!--            android:layout_marginLeft="120dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text="Change Password"-->
+<!--            android:textSize="15sp"-->
+<!--            android:id="@+id/idCngBtn"-->
+<!--            />-->
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

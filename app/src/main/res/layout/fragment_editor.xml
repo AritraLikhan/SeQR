@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".Editor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="509dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="222dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+
+            <EditText
+                android:id="@+id/paragraphEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:hint="Enter your text here"
+                android:textColor="@color/white"
+                android:textColorHint="#594CAF50"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+
+                />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/idSaveBtn"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="131dp"
+            android:textColor="#326E34"
+            android:text="Save as draft" />
+
+        <Button
+            android:id="@+id/idSaveGenBtn"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="131dp"
+            android:textColor="#326E34"
+            android:text="Save and Generate QR" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

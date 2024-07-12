@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutApp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/idAniGen"
+            app:lottie_rawRes="@raw/qrcodegen"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:id="@+id/idGenInfo"/>
+
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/idAniAlgo"
+            app:lottie_rawRes="@raw/dsa"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:id="@+id/idAlgoInfo"/>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/idAniScan"
+            app:lottie_rawRes="@raw/scanqr"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:id="@+id/idScanInfo"/>
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/idAniVerified"
+            app:lottie_rawRes="@raw/authentic"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:id="@+id/idVerifiedInfo"/>
+
+
+
+
+        <!-- Add more TextView and LottieAnimationView here -->
+
+    </LinearLayout>
+
+</ScrollView>

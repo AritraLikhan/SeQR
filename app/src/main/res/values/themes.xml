@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QRtest" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/yellow</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.QRtest" parent="Base.Theme.QRtest" />
+    <style name="AppTheme.MaterialTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorBackgroundFloating">@color/yellow</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="MyButtonStyle">
+        <item name="android:background">@color/yellow</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>

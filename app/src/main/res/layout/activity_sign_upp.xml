@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".SignUpp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.10"
+        android:textColorHint="#594CAF50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:text="Sign up to SeQR"
+        android:textColor="@color/yellow"
+        android:id="@+id/LogInMsgg"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.2"
+        android:hint="First Name"
+        android:textColorHint="#594CAF50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"
+        android:textColor="#3F90B5"
+        android:drawableLeft="@drawable/icon_name"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_text_field"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/idUserName11"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.29"
+        android:hint="Last Name"
+        android:textColorHint="#594CAF50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="#3F90B5"
+        android:drawableLeft="@drawable/icon_name"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_text_field"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/idUserName22"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.38"
+        android:hint="Date of birth"
+        android:inputType="date"
+        android:textColorHint="#594CAF50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="#3F90B5"
+        android:drawableLeft="@drawable/icon_date"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_text_field"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/idDOBB"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.47"
+        android:hint="Email Address"
+        android:textColorHint="#594CAF50"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="#3F90B5"
+        android:background="@drawable/custom_text_field"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="12dp"
+        android:id="@+id/idEmaill"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.56"
+        android:hint="Set a password"
+        android:inputType="textPassword"
+        android:textColorHint="#594CAF50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="#3F90B5"
+        android:background="@drawable/custom_text_field"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:drawableLeft="@drawable/icon_lock"
+        android:drawablePadding="12dp"
+        android:id="@+id/idPasss"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.65"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="#594CAF50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="#3F90B5"
+        android:background="@drawable/custom_text_field"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:drawableLeft="@drawable/icon_lock"
+        android:drawablePadding="12dp"
+        android:id="@+id/idPassConn"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="#326E34"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.80"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign Up"
+        android:textSize="15sp"
+        android:id="@+id/SignUpButtonn"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+

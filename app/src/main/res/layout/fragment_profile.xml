@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_shade_1"
+    tools:context=".Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="@string/hello_blank_fragment" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?actionBarSize"-->
+<!--            android:background="#FF9800"-->
+<!--            android:id="@+id/idToolbar"-->
+<!--            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"-->
+<!--            />-->
+
+
+        <!-- Your CardViews here -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idGenerateQRR"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="110dp"
+            android:background="#3F51B5"
+            app:cardBackgroundColor="#8BC34A"
+            app:cardCornerRadius="17dp">
+
+            <TextView
+                android:id="@+id/idTextGenn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="40dp"
+                android:text="Generate QR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+<!--            <TextView-->
+<!--                android:id="@+id/idTextGenn2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="45dp"-->
+<!--                android:layout_marginLeft="90dp"-->
+<!--                android:text="Write a text and get the QR instantly with a single tap! "-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="20dp"-->
+<!--               ]-->
+<!--                />-->
+
+            <ImageView
+                android:id="@+id/idIconGenn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_genqr" />
+<!--                android:layout_marginBottom="50dp"-->
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idScanQRR"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="240dp"
+            android:background="#3F51B5"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="17dp">
+
+            <TextView
+                android:id="@+id/idTextScann1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="130dp"
+                android:text="Scan QR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+<!--            <TextView-->
+<!--                android:id="@+id/idTextScann2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="45dp"-->
+<!--                android:layout_marginLeft="100dp"-->
+<!--                android:text="Scan the QR,enter data \n and verify with the key "-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="20dp"-->
+<!--            -->
+<!--            />-->
+
+            <ImageView
+                android:id="@+id/idIconScann"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_scanqr" />
+            <!--                android:layout_marginBottom="50dp"-->
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/idScanQRR"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginStart="210dp"-->
+<!--            android:layout_marginTop="430dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:background="#3F51B5"-->
+<!--            app:cardBackgroundColor="#673AB7"-->
+<!--            app:cardCornerRadius="8dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/idTextScann"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:text="Scan\n QR"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="14dp" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/idIconScann"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginBottom="40dp"-->
+<!--                android:src="@drawable/icon_scanqr" />-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/idUpQRR"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="320dp"-->
+<!--            android:layout_marginEnd="210dp"-->
+<!--            android:background="#3F51B5"-->
+<!--            app:cardBackgroundColor="#E91E63"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.6">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/idTextUpp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="105dp"-->
+<!--                android:text="Import and\n generate QR"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="14dp" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/idImportGen"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginBottom="40dp"-->
+<!--                android:src="@drawable/icon_genqr" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/idImportGenPen"-->
+<!--                android:layout_width="114dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="45dp"-->
+<!--                android:layout_marginTop="55dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginBottom="40dp"-->
+<!--                android:src="@drawable/icon_download" />-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/idDraftsQRR"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginStart="210dp"-->
+<!--            android:layout_marginTop="320dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:background="#3F51B5"-->
+<!--            app:cardBackgroundColor="#8BC34A"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.6">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/idTextDraftss"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="105dp"-->
+<!--                android:text="Import and\nscan QR"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="14dp" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/idIconDraftss"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginBottom="40dp"-->
+<!--                android:src="@drawable/icon_scanqr" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/idImportScan"-->
+<!--                android:layout_width="114dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="45dp"-->
+<!--                android:layout_marginTop="55dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginBottom="40dp"-->
+<!--                android:src="@drawable/icon_download" />-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idDrafts"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="500dp"
+            android:background="#3F51B5"
+            app:cardBackgroundColor="#FF5722"
+            app:cardCornerRadius="17dp"
+           >
+
+            <TextView
+                android:id="@+id/idTextDrafts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="40dp"
+                android:text="Drafts"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:id="@+id/idIconDrafts"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_drafts"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idProfile"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="370dp"
+            android:background="#3F51B5"
+            app:cardBackgroundColor="#2196F3"
+            app:cardCornerRadius="17dp">
+
+            <TextView
+                android:id="@+id/idTextHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="40dp"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/idIconHelp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_profile" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Repeat for CardViews 2, 3, and 4 -->
+
+
+    </RelativeLayout>
+
+</FrameLayout>

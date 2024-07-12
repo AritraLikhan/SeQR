@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NotVerified">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <!--        <com.airbnb.lottie.LottieAnimationView-->
+        <!--            android:id="@+id/lottie"-->
+        <!--            android:layout_width="400dp"-->
+        <!--            android:layout_height="400dp"-->
+        <!--            android:layout_centerInParent="true"-->
+        <!--            app:lottie_autoPlay="true"-->
+        <!--            app:lottie_rawRes="@drawable/verified" />-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="300dp"-->
+        <!--            android:layout_height="300dp"-->
+        <!--            android:id="@+id/idImage"-->
+        <!--           />-->
+
+
+        <!--        <com.airbnb.lottie.LottieAnimationView-->
+        <!--            android:id="@+id/lottieAnimationView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            app:lottie_fileName="your_animation.json"-->
+        <!--        app:lottie_autoPlay="true"-->
+        <!--        app:lottie_loop="true"/>-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="130dp"
+            android:id="@+id/animation_view"
+            app:lottie_rawRes="@raw/notverified"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The document is tampered!"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:id="@+id/idNotVerified"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#326E34"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Back to dashboard"
+            android:textSize="15sp"
+            android:id="@+id/idBackDash"
+            />
+
+    </RelativeLayout>
+</FrameLayout>
